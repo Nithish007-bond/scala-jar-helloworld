@@ -37,4 +37,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: hello-world-jar
-        path: target/scala-2.12/helloworld_2.12-0.1.jar # Adjust based on your output
+        path: target/scala-2.12/
