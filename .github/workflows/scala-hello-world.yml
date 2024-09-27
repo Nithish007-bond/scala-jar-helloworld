@@ -31,7 +31,7 @@ jobs:
           ${{ runner.os }}-sbt-
 
     - name: Build with SBT
-      run: sbt package
+      run: sbt assembly
 
     - name: Upload JAR artifact
       uses: actions/upload-artifact@v4
