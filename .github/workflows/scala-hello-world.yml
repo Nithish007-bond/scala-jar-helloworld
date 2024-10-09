@@ -38,4 +38,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: hello-world-jar
-        path: target/scala-2.12/
+        path: target/scala-2.12/sample.jar
