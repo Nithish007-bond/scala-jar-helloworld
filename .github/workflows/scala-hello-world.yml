@@ -25,7 +25,8 @@ jobs:
     - name: Cache SBT
       uses: actions/cache@v2
       with:
-        path: ~/.sbt
+        #path: ~/.sbt
+        path: ~/src/main/scala/HelloWorld.scala
         key: ${{ runner.os }}-sbt-${{ hashFiles('**/build.sbt') }}
         restore-keys: |
           ${{ runner.os }}-sbt-
